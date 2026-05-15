@@ -1,0 +1,31 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: client
+  namespace: novaship
+  labels:
+    app: client
+    role: client
+spec:
+  containers:
+    - name: client
+      image: nicolaka/netshoot:latest
+      command:
+        - sleep
+        - infinity
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: attacker
+  namespace: novaship
+  labels:
+    app: attacker
+    role: attacker
+spec:
+  containers:
+    - name: attacker
+      image: nicolaka/netshoot:latest
+      command:
+        - sleep
+        - infinity
