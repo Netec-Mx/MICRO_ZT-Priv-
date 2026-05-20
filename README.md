@@ -1,17 +1,15 @@
-<div>
 <table>
   <tbody>
-      <tr>
-    <td> 
+    <tr>
+      <td>
         <img src="./images/neteclogo.png" width="250px">
-    <td>
-    <td>
-      <h1>Microsegmentación y Zero Trust<h1>
-    </td>
-  </tr>
+      </td>
+      <td>
+        <h1>Microsegmentación y Zero Trust</h1>
+      </td>
+    </tr>
   </tbody>
-<table>
-</div>
+</table>
 
 **Plataforma de Laboratorios**
 Bienvenido a la **Plataforma de Laboratorios** del curso **Microsegmentación y Zero Trust**. Aquí podrás explorar diferentes tecnologías a través de prácticas guiadas. ¡Desarrolla tus habilidades y lleva tus conocimientos al siguiente nivel!
